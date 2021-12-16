@@ -25,7 +25,7 @@ uberjar(){
   clojure \
     -X:uberjar Genie.core/process \
     :main-ns Mando.main \
-    :filename "\"out/Mando.jar\"" \
+    :filename "\"out/Mando-$(git rev-parse --short HEAD).jar\"" \
     :paths '["src" "out/identicon"]'
 }
 
