@@ -25,7 +25,7 @@
 
 (defn window
   []
-  (let [jframe (JFrame. "i've been quested with returning this child to the Jedi")]
+  (let [jframe (JFrame. "any idea what they gonna do with it?")]
 
     (when-let [url (io/resource "icon.png")]
       (.setIconImage jframe (.getImage (ImageIcon. url))))
