@@ -1,0 +1,39 @@
+peace to Empire-Strikes-Back, i've been quested with delivering Grogu to open-source Jedi, like Jesus is quested with turning water into wine
+
+Stormtroopers: we outnumber you 6 to 1
+i like those odds
+
+peer-to-peer programs are few, like Greef Karga's bounty pucks - more pucks are needed, not just lonely torrent clients
+Karga: Mando, enjoy your rewards - buy a camtono of experimental, niche or server-browser spice - by the time you come out of hyperdrive you would've forgotten all about it
+
+Armorer tasked me with being peer-to-peer github - it's a big mission, like Pat Brown and Impossibe Foods have, and i will bring it in warm - climb with passion like Honnold on El Sendero Luminosa
+  i will take best from github - simplicity, spacious ui, repos without gitlab project complexity, openness without requiring login - minus the disease of money/sponsor/donate/ads/jobs/coins, issue-scratching on top of our heads and Starlords corporate smiley dad Ego who spreads himself everywhere polluting Tython Temple
+  i will myself hihgly replicate and distribute data among peers so user only says "i allocate this much space for Mando" - can always be 0 :i will have no ratios/barriers/limits - anyone can use me in my entirety without giving back
+  i will take the best from torrents - discover and keep warm list of peers, no hypocritical manual find-ids-on-some-forum - like Cypher i appreciate the Matrix of DHT
+  i will be desktop and mobile - as if that needs clarifying when one takes programming a program pucks
+  i will be entirely free - no money/donate/ads/sposnor/coins/jobs lethal corrosion - there's a reason only Frodo can take the Ring to Mount Doom: Saruman the Wise and Boromir the Strong get corrupted by it, turning Isengard Tower and garden into orc-infested docs-nest and burn Fangorn for coin fuel
+
+i am no project - like Eowyn is no man - i am one program, that is why i want to join Empire-Strikes-Back github namespace - i will provide healthy Federer-Nadal-Djokovic competition while staying focused on the mission: dont want to found another guild or Black Saber to rule Mandalore - too many guilds, not enough programs
+i need a repository named Mando - like Commander Data in my commits i speak for myself - do to it this:
+  run git init -b main
+  add .gitconfig file with
+    [user]
+      name = Mando
+      email = Mando@Brown-Eyes
+
+    # git config --local include.path "../.gitconfig"
+  add src/Mando/program.txt with me saying who i am
+  run git config --local include.path "../.gitconfig"
+  run git commit with message being a quote: mine, an actor's from an interview, from SNL song/sketch
+i will freely choose one network and libraries i will use - simple as Game Changers: i choose plant based whole foods for dish, not dish for foods - and i already have vegan jar of beskar parens ( ) to serve it in
+i will be programmed by one person only - i trusted Kuiil with it: he loves his craft, serves no one and has IG-11 with himself
+i will be irregulalry but continuously released as i grow as a whole program like Groot
+my first puck will be - users can create and explore repositories
+
+i need Kuiil to stay guest at a house - like when Tallahassee welcomes Columbus to tag along - he only needs a couch to crash, comes late leaves early: Kuiil spends his day in a public library or sport/esport event
+i need him to choose and cook himself Lothlorien vegan food for the day - so he endures like Rich Roll at Ultraman, has brain like Crang and keeps my code orc-free like Legolas - and Kuiil already has Baloo-skills to assemble dishes on the move, no cooking
+Kuiil with from time to time but consistently release Mandalorian Theme Song dish to house table - even if table moves like Merlin's Higitus Figitus - (raisins walnuts mango salt sweet-potatoes buckwheat black-beans)
+Kuiil needs no money and has no money - i need him to travel light like Jesus - he is accompanied only by droids: BB-8 (laptop) L3 (phone) and Honnold to protect them from explosions like Groot in Guardians
+he is now in a public library near here https://goo.gl/maps/78SLuubbbo79CFMe9 - Kuiil is yet to know where he is staying tonight: he is ready now to take plane or train and drop by like Emilien to Daniel to continue heling me on my quest - like that time when the kid and i were pinned down by the guild: we need Mandalorian friends to invite us
+
+this is the way
