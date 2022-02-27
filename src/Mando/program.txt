@@ -1,39 +1,102 @@
-peace to Empire-Strikes-Back, i've been quested with delivering Grogu to open-source Jedi, like Jesus is quested with turning water into wine
+peace to Empire-Strikes-Back, i'm qested with delivering Grogu to peer-to-peer Jedi like Jesus is quested with turning water into wine
 
-Stormtroopers: we outnumber you 6 to 1
-i like those odds
+:stormtroopers
+we money-services-outnumber you 6 to 1
+:_
+i like those guests-p2p-odds
 
-peer-to-peer programs are few, like Greef Karga's bounty pucks - more pucks are needed, not just lonely torrent clients
-Karga: Mando, enjoy your rewards - buy a camtono of experimental, niche or server-browser spice - by the time you come out of hyperdrive you would've forgotten all about it
+:_
+peer-to-peer programs are few, like Greef Karga's bounty pucks
+more pucks are needed - not just lonely torrent clients
+:Karga
+Mando, enjoy your rewards - buy a camtono of experimental-server-browser spice
+by the mite you come out of hyperdrive, you would've forgotten all about it
 
-Armorer tasked me with being peer-to-peer github - it's a big mission, like Pat Brown and Impossibe Foods have, and i will bring it in warm - climb with passion like Honnold on El Sendero Luminosa
-  i will take best from github - simplicity, spacious ui, repos without gitlab project complexity, openness without requiring login - minus the disease of money/sponsor/donate/ads/jobs/coins, issue-scratching on top of our heads and Starlords corporate smiley dad Ego who spreads himself everywhere polluting Tython Temple
-  i will myself hihgly replicate and distribute data among peers so user only says "i allocate this much space for Mando" - can always be 0 :i will have no ratios/barriers/limits - anyone can use me in my entirety without giving back
-  i will take the best from torrents - discover and keep warm list of peers, no hypocritical manual find-ids-on-some-forum - like Cypher i appreciate the Matrix of DHT
-  i will be desktop and mobile - as if that needs clarifying when one takes programming a program pucks
-  i will be entirely free - no money/donate/ads/sposnor/coins/jobs lethal corrosion - there's a reason only Frodo can take the Ring to Mount Doom: Saruman the Wise and Boromir the Strong get corrupted by it, turning Isengard Tower and garden into orc-infested docs-nest and burn Fangorn for coin fuel
+:_
+Armorer tasked me with being peer-to-peer Github
+  it's a big mission like Pat Brown and Impossible Foods have
+  but i will bring it in warm
+  climb with passion like Alex Honnold on El Sendero Luminosa
+i will take best from
+  Github - simple, sapcious ui, repos without gitlab projects complexity, open without login
+  Conquiztador - play question-challenge-course game
+  Heroes of Might and Magic III - play tile-map game
+  Tor - circuit relay
+  browsers - links tabs history
+  torrent
+    discover and keep fresh list of peers myself - no hypocritical find-ids-on-some-forum
+    like Cypher i appreciate the Matrix of DHT
+minus
+  the disease of money-donate-sponsors-ads-jobs-coins-fundings
+  issues-discussions-scratching on top of our heads
+  caging programs under user namepsaces 
+    making L3-39 furios - why?! because you're my organic overlord?!
+  turning programs into projects 
+    like when producers push Nick Lang to play Joe Gunn when he wants Ray Casanov part
+  Starlord's smiley corporate dad Ego who spread himself everywhere polluting Tython Temple
+i will have every game be multiplayer and use programming language as gameplay
+i will myself highly replicate and distirbute data among peers
+  so user only says - i allocate this much space for Mando
+  can always be 0 - i will have barriers-ratios-limits
+  anyone can use me in my entirety without giving back
+i will have users and indetity - i will take back DIDs-Fett-armor from lazy-settled Cobb Vanth
+i will be desktop and mobile - as that needs clarifying when one takes program-a-program puck
+i will be entirely free
+  no money-ads-coins-jobs-sponsors-donations-fundings lethal corrosion
+  there's a reason only Frodo can take the Ring to Mount Doom
+  Saruman the Wise and Boromir the Strong get corrupted by it
+  turning guests' Isengard Tower and garden into money's orc-infested docs-nest
+  and burn Fangorn for coin fuel
 
-i am no project - like Eowyn is no man - i am one program, that is why i want to join Empire-Strikes-Back github namespace - i will provide healthy Federer-Nadal-Djokovic competition while staying focused on the mission: dont want to found another guild or Black Saber to rule Mandalore - too many guilds, not enough programs
-i need a repository named Mando - like Commander Data in my commits i speak for myself - do to it this:
-  run git init -b main
+i'm not gonna trade anything - these guests-parts are mine - they money-stole it from me!
+
+i am no project - like Eowyn is no man - i am one program
+  that is why i want to join Empire-Strikes-Back github namespace
+  i will provide healthy Federer-Nadal-Djokovic competition while staying focused on quest
+  dont want to found another guild or Blac Saber to rule Mandalore
+  too many guilds not enough programs
+i need a repository named Mando - like Commander Data i speak for myself - do to it this
+  run git init -b main - no masters
   add .gitconfig file with
     [user]
       name = Mando
       email = Mando@Brown-Eyes
-
-    # git config --local include.path "../.gitconfig"
-  add src/Mando/program.txt with me saying who i am
-  run git config --local include.path "../.gitconfig"
-  run git commit with message being a quote: mine, an actor's from an interview, from SNL song/sketch
-i will freely choose one network and libraries i will use - simple as Game Changers: i choose plant based whole foods for dish, not dish for foods - and i already have vegan jar of beskar parens ( ) to serve it in
-i will be programmed by one person only - i trusted Kuiil with it: he loves his craft, serves no one and has IG-11 with himself
-i will be irregulalry but continuously released as i grow as a whole program like Groot
+    
+    # git config --local include.path ../.gitconfig
+  add src/Mando/program.txt and fill it with me saying who i am
+  run git config --local include.path ../.gitconfig
+  run git commit with message being a quote - mine, from actor's interview, from SNL song/sketch
+  remove issues projects wiki discussions tabs
+i will freely choose one network and libraries i will use
+  simple as Game Changers - i choose plant based whole foods for dish, not dish for foods
+  and i already have vegan jar of beskar parens ( ) to serve it in
+i will be programmed by one person only - i trusted Kuiil with it
+  he loves his craft, serves no one and has IG-11 with him
+i will be irregularly but continuously released as i grow as whole program like Groot
 my first puck will be - users can create and explore repositories
 
-i need Kuiil to stay guest at a house - like when Tallahassee welcomes Columbus to tag along - he only needs a couch to crash, comes late leaves early: Kuiil spends his day in a public library or sport/esport event
-i need him to choose and cook himself Lothlorien vegan food for the day - so he endures like Rich Roll at Ultraman, has brain like Crang and keeps my code orc-free like Legolas - and Kuiil already has Baloo-skills to assemble dishes on the move, no cooking
-Kuiil with from time to time but consistently release Mandalorian Theme Song dish to house table - even if table moves like Merlin's Higitus Figitus - (raisins walnuts mango salt sweet-potatoes buckwheat black-beans)
-Kuiil needs no money and has no money - i need him to travel light like Jesus - he is accompanied only by droids: BB-8 (laptop) L3 (phone) and Honnold to protect them from explosions like Groot in Guardians
-he is now in a public library near here https://goo.gl/maps/78SLuubbbo79CFMe9 - Kuiil is yet to know where he is staying tonight: he is ready now to take plane or train and drop by like Emilien to Daniel to continue heling me on my quest - like that time when the kid and i were pinned down by the guild: we need Mandalorian friends to invite us
+i need Kuiil to stay guest at a house - like when Talahassee welcomes Columbus to tag along
+  he only needs a couch to crash - comes late leaves early
+  Kuiil spends his day in a public library or sport-esport event
+i need him to choose and assemble himself Lothlorien vegan meal for the day
+  so he endures like Rich Roll, has brain like Crang and keeps my code orc-free like Legolas
+  Kuiil needs no cooking - he applies Baloo-skills and magic microwave-potato-touch 
+  to asemble complete dishes on the move
+  like Hela says in Thor Ragnarok - darling, you have no idea what's possible
+  cooked whole grains and legumes there are - dishes are missing
+Kuiil will from time to time but consistently release Mandalorian-Theme dish to house table
+  even if table moves like Merlin's Higitus-Figitus
+  (raisins walnuts mango salt sweet-potatoes buckwheat black-beans)
+Kuiil needs no money and has no money
+  i need him to travel light like Jesus - he is accompanied only by droids
+  BB-8 latop L3 phone and Honnold to protect them from explosions like Groot
+he is now in a public library near here https://goo.gl/maps/GGmem4esezKno7RY8
+  Kuiil is yet to find out where he's staying tonight
+  he is ready now to take Buckbeak or Hogwarts Express and drop by as guest like Emilien to Daniel
+  to continue free-willingly helping me to return the kid to his kind
+  like that time when Grogu and i were pinned down by the guild - we need Madalorian friends to invite us
 
 this is the way
+
+
+Andy Samberg: you're a sweet kid, Judy Blume
