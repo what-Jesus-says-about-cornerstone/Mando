@@ -19,4 +19,12 @@
 
 (defn process
   []
-  (println "i dont want my next job"))
+  (println "Kuiil has spoken"))
+
+(defn -main
+  [& main]
+  (println "i dont want my next job")
+  (process))
+
+(do
+  #_nothing)

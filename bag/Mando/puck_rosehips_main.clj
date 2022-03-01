@@ -17,4 +17,12 @@
 
 (defn process
   []
-  (println :i-dont-want-my-next-job))
+  (println "Kuiil has spoken"))
+
+(defn -main
+  [& args]
+  (println "i dont want my next job")
+  (process))
+
+(do
+  (-main))
