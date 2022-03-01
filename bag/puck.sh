@@ -3,29 +3,29 @@
 repl(){
   clj \
     -J-Dclojure.core.async.pool-size=1 \
-    -X:repl Ripley.core/process \
-    :main-ns Mando.main
+    -X:repl:$1 Ripley.core/process \
+    :main-ns puck.${1}-main
 }
 
 main(){
   clojure \
     -J-Dclojure.core.async.pool-size=1 \
-    -M -m Mando.main
+    -M:$1 -m puck.${1}-main
 }
 
 jar(){
 
   clojure \
     -X:identicon Zazu.core/process \
-    :word '"Mando"' \
+    :word "\"$1\"" \
     :filename '"out/identicon/icon.png"' \
     :size 256
 
   rm -rf out/*.jar
   clojure \
     -X:uberjar Genie.core/process \
-    :main-ns Mando.main \
-    :filename "\"out/Mando-$(git rev-parse --short HEAD).jar\"" \
+    :main-ns puck.${1}-main \
+    :filename "\"out/puck-$1-$(git rev-parse --short HEAD).jar\"" \
     :paths '["src" "out/identicon"]'
 }
 

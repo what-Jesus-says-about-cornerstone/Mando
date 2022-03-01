@@ -1,4 +1,4 @@
-(ns Mando.puck-rosehips-main
+(ns puck.rosehips-main
   ""
   (:require
    [clojure.core.async :as Little-Rock
@@ -13,7 +13,7 @@
 
 (defn reload
   []
-  (require 'Mando.puck-rosehips-main :reload))
+  (require '[puck.rosehips-main] :reload))
 
 (defn process
   []
@@ -23,6 +23,3 @@
   [& args]
   (println "i dont want my next job")
   (process))
-
-(do
-  (-main))
