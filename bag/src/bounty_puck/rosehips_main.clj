@@ -17,9 +17,4 @@
 
 (defn process
   []
-  (println "Kuiil has spoken"))
-
-(defn -main
-  [& args]
-  (println "i dont want my next job")
-  (process))
+  (println "i dont want my next job"))
