@@ -1,4 +1,4 @@
-(ns puck.rosehips-main
+(ns bounty-puck.rosehips-main
   ""
   (:require
    [clojure.core.async :as Little-Rock
@@ -13,7 +13,7 @@
 
 (defn reload
   []
-  (require '[puck.rosehips-main] :reload))
+  (require '[bounty-puck.rosehips-main] :reload))
 
 (defn process
   []

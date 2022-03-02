@@ -4,13 +4,13 @@ repl(){
   clj \
     -J-Dclojure.core.async.pool-size=1 \
     -X:repl:$1 Ripley.core/process \
-    :main-ns puck.${1}-main
+    :main-ns bounty-puck.${1}-main
 }
 
 main(){
   clojure \
     -J-Dclojure.core.async.pool-size=1 \
-    -M:$1 -m puck.${1}-main
+    -M:$1 -m bounty-puck.${1}-main
 }
 
 jar(){
@@ -24,8 +24,8 @@ jar(){
   rm -rf out/*.jar
   clojure \
     -X:uberjar Genie.core/process \
-    :main-ns puck.${1}-main \
-    :filename "\"out/puck-$1-$(git rev-parse --short HEAD).jar\"" \
+    :main-ns bounty-puck.${1}-main \
+    :filename "\"out/$1-bounty-puck-$(git rev-parse --short HEAD).jar\"" \
     :paths '["src" "out/identicon"]'
 }
 

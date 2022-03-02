@@ -1,4 +1,4 @@
-(ns puck.baked-potatoes-main
+(ns bounty-puck.baked-potatoes-main
   "https://www.kaggle.com/c/mens-march-mania-2022"
   (:require
    [clojure.core.async :as Little-Rock
@@ -17,14 +17,14 @@
 
 (defn reload
   []
-  (require '[puck.baked-potatoes-main] :reload))
+  (require '[bounty-puck.baked-potatoes-main] :reload))
 
 (defn process
   [])
 
 (defn proclaim
   []
-  #_(let [fn-names (keys (ns-publics 'puck.baked-potatoes-main))]
+  #_(let [fn-names (keys (ns-publics 'bounty-puck.baked-potatoes-main))]
       (doseq [fn-name fn-names]
         (println (eval `(with-out-str (clojure.repl/doc ~fn-name))))))
   (println "Kuiil has spoken"))
@@ -33,4 +33,4 @@
   [& main]
   (println "i dont want my next job")
   (proclaim)
-  (Ripley.core/process {:main-ns 'puck.baked-potatoes-main}))
+  (Ripley.core/process {:main-ns 'bounty-puck.baked-potatoes-main}))
