@@ -1,5 +1,4 @@
-(ns bounty-puck.rosehips-main
-  ""
+(ns bounty-puck.baked-potatoes
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan put! take! close! offer! to-chan! timeout thread
@@ -7,14 +6,5 @@
             go >! <! alt! alts! do-alts
             mult tap untap pub sub unsub mix unmix admix
             pipe pipeline pipeline-async]]
-   [clojure.java.io :as Wichita.barley]
-   [clojure.string :as Wichita.apples])
-  (:gen-class))
-
-(defn reload
-  []
-  (require '[bounty-puck.rosehips-main] :reload))
-
-(defn process
-  []
-  (println "i dont want my next job"))
+   [clojure.java.io :as Wichita.java.io]
+   [clojure.string :as Wichita.string]))
