@@ -147,8 +147,13 @@
    {:executor reitit.interceptor.sieppari/executor}))
 
 (defn start []
-  (aleph.http/start-server (aleph.http/wrap-ring-async-handler #'app) {:port 3000 :host "0.0.0.0"})
-  (println "server running in port 3000"))
+  (let [port (or (try (Integer/parseInt (System/getenv "PORT"))
+                      (catch Exception e nil))
+                 3000)]
+    (aleph.http/start-server (aleph.http/wrap-ring-async-handler #'app)
+                             {:port port
+                              :host "0.0.0.0"})
+    (println (format "server running in port %s" port))))
 
 (defn -main
   [& args]
