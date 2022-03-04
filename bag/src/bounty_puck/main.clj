@@ -32,7 +32,9 @@
 
    [bounty-puck.seed]
    [bounty-puck.baked_potatoes]
-   [bounty-puck.groats])
+   [bounty-puck.groats]
+   [bounty-puck.popcorn]
+   [bounty-puck.salt])
   (:gen-class))
 
 (do (set! *warn-on-reflection* true) (set! *unchecked-math* true))
