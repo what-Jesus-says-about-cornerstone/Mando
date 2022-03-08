@@ -1,3 +1,0 @@
-- install java
-- make Mando-version.jar executable and double click
-- or run java -jar Mando-version.jar
