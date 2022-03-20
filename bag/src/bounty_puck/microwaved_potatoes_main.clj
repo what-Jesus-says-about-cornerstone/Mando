@@ -1,4 +1,4 @@
-(ns bounty-puck.baked-potatoes-main
+(ns bounty-puck.microwaved-potatoes-main
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan take! put! offer! close! to-chan! timeout thread
@@ -13,7 +13,7 @@
 
 (defn reload
   []
-  (require '[bounty-puck.baked-potatoes-main] :reload))
+  (require '[bounty-puck.microwaved-potatoes-main] :reload))
 
 (defn process
   []

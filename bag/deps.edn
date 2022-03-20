@@ -15,6 +15,6 @@
   :identicon {:extra-deps {Zazu/Zazu {:git/url "https://github.com/Empire-Strikes-Back/Zazu"
                                       :sha "063ef7649c01284be8f5a1e9814d5bf83025ad76"}}}
 
-  :baked-potatoes {:extra-deps {}}
+  :microwaved-potatoes {:extra-deps {}}
   :rosehips {:extra-deps {}}
   :lingonberries {:extra-deps {}}}}
