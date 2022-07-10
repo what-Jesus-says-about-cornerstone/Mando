@@ -1,4 +1,4 @@
-(ns Mando.bread
+(ns Mando.oats
   (:require
    [clojure.core.async :as Little-Rock
     :refer [chan put! take! close! offer! to-chan! timeout thread
