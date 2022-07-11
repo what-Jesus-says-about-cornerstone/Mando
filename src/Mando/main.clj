@@ -19,7 +19,7 @@
    [Mando.mango]
    [Mando.B12]
    [Mando.salt]
-   [Mando.bread]
+   [Mando.oats]
    [Mando.raisins])
   (:import
    (javax.swing JFrame WindowConstants JPanel JScrollPane JTextArea BoxLayout JEditorPane ScrollPaneConstants SwingUtilities JDialog)
@@ -70,7 +70,7 @@
    '[Mando.mango]
    '[Mando.B12]
    '[Mando.salt]
-   '[Mando.bread]
+   '[Mando.oats]
    '[Mando.raisins]
    '[Mando.main]
    :reload))
@@ -209,7 +209,7 @@
             jpanel-mango (JPanel.)
             jpanel-B12 (JPanel.)
             jpanel-salt (JPanel.)
-            jpanel-bread (JPanel.)
+            jpanel-oats (JPanel.)
             jpanel-raisins (JPanel.)]
 
         (doto jtabbed-pane
@@ -217,11 +217,11 @@
           (.addTab "mango" jpanel-mango)
           (.addTab "B12" jpanel-B12)
           (.addTab "salt" jpanel-salt)
-          (.addTab "bread" jpanel-bread)
+          (.addTab "oats" jpanel-oats)
           (.addTab "raisins" jpanel-raisins)
-          (.setSelectedComponent jpanel-bread))
+          (.setSelectedComponent jpanel-oats))
 
-        (Mando.bread/process {:jpanel-tab jpanel-bread
+        (Mando.oats/process {:jpanel-tab jpanel-oats
                               :db-data-dirpath db-data-dirpath})
 
         (.add jroot-panel jtabbed-pane))
