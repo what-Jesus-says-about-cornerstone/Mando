@@ -17,7 +17,6 @@
 
    [Mando.seed]
    [Mando.mango]
-   [Mando.grapefruit]
    [Mando.B12]
    [Mando.salt]
    [Mando.bread]
@@ -69,7 +68,6 @@
   (require
    '[Mando.seed]
    '[Mando.mango]
-   '[Mando.grapefruit]
    '[Mando.B12]
    '[Mando.salt]
    '[Mando.bread]
@@ -209,7 +207,6 @@
 
       (let [jtabbed-pane (JTabbedPane.)
             jpanel-mango (JPanel.)
-            jpanel-grapefruit (JPanel.)
             jpanel-B12 (JPanel.)
             jpanel-salt (JPanel.)
             jpanel-bread (JPanel.)
@@ -218,7 +215,6 @@
         (doto jtabbed-pane
           (.setTabLayoutPolicy JTabbedPane/SCROLL_TAB_LAYOUT)
           (.addTab "mango" jpanel-mango)
-          (.addTab "grapefruit" jpanel-grapefruit)
           (.addTab "B12" jpanel-B12)
           (.addTab "salt" jpanel-salt)
           (.addTab "bread" jpanel-bread)
