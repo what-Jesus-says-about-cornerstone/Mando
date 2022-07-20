@@ -15,7 +15,7 @@
    [datahike.api]
    [taoensso.timbre]
 
-   [Mando.water]
+   [Mando.seed]
    [Mando.mango]
    [Mando.B12]
    [Mando.salt]
@@ -66,7 +66,7 @@
 (defn reload
   []
   (require
-   '[Mando.water]
+   '[Mando.seed]
    '[Mando.mango]
    '[Mando.B12]
    '[Mando.salt]

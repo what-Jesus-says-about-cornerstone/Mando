@@ -1,4 +1,4 @@
-(ns Mando.water
+(ns Mando.seed
   (:require
    [clojure.core.async
     :refer [chan put! take! close! offer! to-chan! timeout thread
