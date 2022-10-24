@@ -1,4 +1,4 @@
-(ns Mando.B12
+(ns Mando.fish
   (:require
    [clojure.core.async
     :refer [chan put! take! close! offer! to-chan! timeout thread

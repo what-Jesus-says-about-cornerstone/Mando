@@ -17,7 +17,7 @@
 
    [Mando.seed]
    [Mando.mango]
-   [Mando.B12]
+   [Mando.fish]
    [Mando.salt]
    [Mando.bread]
    [Mando.wine])
@@ -68,7 +68,7 @@
   (require
    '[Mando.seed]
    '[Mando.mango]
-   '[Mando.B12]
+   '[Mando.fish]
    '[Mando.salt]
    '[Mando.bread]
    '[Mando.wine]
@@ -118,7 +118,7 @@
   (let [root-panel (JPanel.)
         jscroll-pane (JScrollPane.)
 
-        jcheckbox-editor (JCheckBox.)]
+        jcheckbox-grapeseed (JCheckBox.)]
 
     (doto jscroll-pane
       (.setViewportView root-panel)
@@ -129,20 +129,20 @@
 
     (doto root-panel
       (.setLayout (MigLayout. "insets 10"))
-      (.add (JLabel. ":editor?") "cell 0 0")
-      (.add jcheckbox-editor "cell 0 0"))
+      (.add (JLabel. ":grapeseed?") "cell 0 0")
+      (.add jcheckbox-grapeseed "cell 0 0"))
 
     (.setPreferredSize jframe (Dimension. (* 0.8 (.getWidth root-jframe))
                                           (* 0.8 (.getHeight root-jframe))))
 
-    (.addActionListener jcheckbox-editor
+    (.addActionListener jcheckbox-grapeseed
                         (reify ActionListener
                           (actionPerformed [_ event]
                             (SwingUtilities/invokeLater
                              (reify Runnable
                                (run [_]
                                  (put! ops| {:op :settings-value
-                                             :editor? (.isSelected jcheckbox-editor)})))))))
+                                             :grapeseed? (.isSelected jcheckbox-grapeseed)})))))))
 
     (remove-watch settingsA :settings-process)
     (add-watch settingsA :settings-process
@@ -150,7 +150,7 @@
                  (SwingUtilities/invokeLater
                   (reify Runnable
                     (run [_]
-                      (.setSelected jcheckbox-editor (:editor? new-state)))))))
+                      (.setSelected jcheckbox-grapeseed (boolean (:grapeseed? new-state))))))))
 
     (doto jframe
       (.setDefaultCloseOperation WindowConstants/DISPOSE_ON_CLOSE #_WindowConstants/EXIT_ON_CLOSE)
@@ -162,8 +162,6 @@
 (defn -main
   [& args]
   (println "i've been quested with returning this child to the Jedi")
-  (println "i dont want my next job")
-  (println "Kuiil has spoken")
 
   #_(alter-var-root #'*ns* (constantly (find-ns 'Mando.main)))
 
@@ -201,13 +199,13 @@
     (let []
       (clojure.java.io/make-parents program-data-dirpath)
       (reset! stateA {})
-      (reset! settingsA {:editor? true})
+      (reset! settingsA {:grapeseed? true})
 
 
 
       (let [jtabbed-pane (JTabbedPane.)
             jpanel-mango (JPanel.)
-            jpanel-B12 (JPanel.)
+            jpanel-fish (JPanel.)
             jpanel-salt (JPanel.)
             jpanel-bread (JPanel.)
             jpanel-wine (JPanel.)]
@@ -215,7 +213,7 @@
         (doto jtabbed-pane
           (.setTabLayoutPolicy JTabbedPane/SCROLL_TAB_LAYOUT)
           (.addTab "mango" jpanel-mango)
-          (.addTab "B12" jpanel-B12)
+          (.addTab "fish" jpanel-fish)
           (.addTab "salt" jpanel-salt)
           (.addTab "bread" jpanel-bread)
           (.addTab "wine" jpanel-wine)
